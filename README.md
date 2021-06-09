@@ -42,7 +42,7 @@ Our study area is a university campus located in Southern China, as shown in [Fi
 
 * <em>Trajectory_location.mat</em> (in five zipped files) contains the trajectory of each agent at each timestamp (one minute).
 
-* <em>Trajectory_building_id.mat</em> contains activity locations along the agents' trajectories, including (X-Y) in the <em>Trajectory_location.mat</em> and "building id" in <em>Building_attribute.csv</em>.
+* <em>Trajectory_building_id.mat</em> contains activity locations along the agents' trajectories, including (X-Y) in the <em>Trajectory_location.mat</em> and (building id) in <em>Building_attribute.csv</em>.
 
 # Codes
 
