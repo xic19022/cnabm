@@ -50,8 +50,8 @@ One MATLAB code is developed for the CN-ABM model.
 
 * <em>simulation.m*</em> contains the main codes for the model simulation. It may take a few hours to generate the full results.
 
-* **Inputs:** Input data for running em>simulation.m*</em> include the personal attributes <em>Personal_attribute.csv</em>, building attributes <em>Building_attribute.csv</em>, agents' trajectories <em>Trajectory_location.mat</em> and the agents' actitivty building id <em>Trajectory_building_id.mat</em>. Also, serval parameters are needed for model initialization, including the number of simulation weeks, initial infetion rates, vaccine efficacy, vaccination rate, student composition, infection rate, and the average number of close contacts in each activity environment.
+**Inputs:** Input data for running em>simulation.m*</em> include the personal attributes <em>Personal_attribute.csv</em>, building attributes <em>Building_attribute.csv</em>, agents' trajectories <em>Trajectory_location.mat</em> and the agents' actitivty building id <em>Trajectory_building_id.mat</em>. Also, serval parameters are needed for model initialization, including the number of simulation weeks, initial infetion rates, vaccine efficacy, vaccination rate, student composition, infection rate, and the average number of close contacts in each activity environment.
 
-* **Outputs:** The outputs of <em>simulation.m</em> is a csv file of active infectious cases(%).
+**Outputs:** The outputs of <em>simulation.m</em> is a csv file of active infectious cases(%).
 
-We have also genereted an example of active infectious cases(%) with a low community risk, mostly in-class modality (25% of distance-learning), and a vaccination rate of 45%, as shown in <em>result_S25_V45.csv</em>.
+We have also genereted an example of active infectious cases (%) with a low community risk, mostly in-class modality (25% of distance-learning), and a vaccination rate of 45%, as shown in <em>result_S25_V45.csv</em>.
