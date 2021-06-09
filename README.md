@@ -1,4 +1,4 @@
-﻿# Introduction
+# Introduction
 
 As the COVID-19 pandemic impacts global health in an unprecedented way, how to effectively control the spread of the disease at school and then make safe reopening plans has become a prime concern of local governments and school officials. We thus propose a contact network agent-based model (CN-ABM) to simulate different disease transmission scenarios on campus at the micro-scale. The model establishes a contact network for each agent, and then evaluates the change of the agent's health status via interpersonal contacts in different activity environments. Based on the CN-ABM, we identify how different community risk levels, teaching modalities, and vaccination rates could shape the epidemic curve.The proposed CN-ABM model and its applications to a real-world campus scenario lay the methodological foundation for risk assessments of COVID-19 at the micro-scale and can provide proactive intervention strategies to safely reopen schools. 
 
@@ -48,7 +48,7 @@ Our study area is a university campus located in Southern China, as shown in [Fi
 
 One MATLAB code is developed for the CN-ABM model.
 
-* <em>simulation.m*</em> contains the main codes for the model simulation. It may take a few hours to run the model and generate the full set of results.
+* <em>simulation.m</em> contains the main codes for the model simulation. It may take a few hours to run the model and generate the full set of results.
 
 **Inputs:** Input data for running em>simulation.m*</em> include the personal attributes <em>Personal_attribute.csv</em>, building attributes <em>Building_attribute.csv</em>, agents' trajectories <em>Trajectory_location.mat</em> and the agents' actitivty building id <em>Trajectory_building_id.mat</em>. Also, serval parameters are needed for model initialization, including the number of simulation weeks, initial infetion rates, vaccine efficacy, vaccination rate, student composition, infection rate, and the average number of close contacts in each activity environment.
 
