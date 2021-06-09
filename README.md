@@ -18,7 +18,7 @@ After the contact network is established, we use a modified SEIR model with six 
 
 ![Figure 2](https://github.com/xic19022/cnabm/blob/figures/Fig2_SEIR.png)
 
-<em>Figure 2. Schematic illustration of an infection cycle with the change of an agent’s health status</em>
+<em>Figure 2. An infection cycle with the change of an agent’s health status</em>
 
 The workflow of the simulation is shown in [Figure 3](https://github.com/xic19022/cnabm/blob/figures/Fig3_workflow.png). For each scenario, we have performed the simulation for twenty-five weeks at a one-minute timestamp; we also repeated each simulation five times to account for the stochastic nature of the disease transmission. 
 
