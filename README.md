@@ -6,31 +6,31 @@ As the COVID-19 pandemic impacts global health in an unprecedented way, how to e
 
 # Methodology
 
-The transmission process of the SARS-CoV-2 virus can be regarded as the transition of an individual's health status via interactions with infectious agents. This process can be illustrated by [Figure 1](https://github.com/xic19022/cnabm/blob/figures/Fig1_contact_network.png), where an agent’s health status could change if the agent’s contact network entails an infectious agent. Additionally, the internal transmission process inside a school can be influenced by the community spread beyond the school environment. We thus incorporate the community risk as an external node into the contact network, meaning that each agent can become infectious at a given probability even without contacting other internal agents.
+The transmission process of the SARS-CoV-2 virus can be regarded as the transition of an individual's health status via interactions with infectious agents. This process can be illustrated by [Figure 1](https://github.com/xic19022/cnabm/blob/figures/contact_network.png), where an agent’s health status could change if the agent’s contact network entails an infectious agent. Additionally, the internal transmission process inside a school can be influenced by the community spread beyond the school environment. We thus incorporate the community risk as an external node into the contact network, meaning that each agent can become infectious at a given probability even without contacting other internal agents.
 
-![Figure 1](https://github.com/xic19022/cnabm/blob/figures/Fig1_contact_network.png)
+![Figure 1](https://github.com/xic19022/cnabm/blob/figures/contact_network.png)
 
 <em>Figure 1. Schematic illustration of the contact network</em> 
 
 To construct the contact network, all agents’ daily activity patterns, including their movement trajectories, locations of stay in an activity environment (e.g., dining hall, residential building), and periods of stay, must be acquired. 
 
-After the contact network is established, we use a modified SEIR model with six heath statuses to illustrate a complete infection cycle for an agent, including susceptible (S), exposed (E), pre-symptomatic (Ip), infected (I), recovered/removed (R), and vaccinated (V). These six health statuses constitute five infection phases, as shown in [Figure 2](https://github.com/xic19022/cnabm/blob/figures/Fig2_SEIR.png).
+After the contact network is established, we use a modified SEIR model with six heath statuses to illustrate a complete infection cycle for an agent, including susceptible (S), exposed (E), pre-symptomatic (Ip), infected (I), recovered/removed (R), and vaccinated (V). These six health statuses constitute five infection phases, as shown in [Figure 2](https://github.com/xic19022/cnabm/blob/figures/SEIR.png).
 
-![Figure 2](https://github.com/xic19022/cnabm/blob/figures/Fig2_SEIR.png)
+![Figure 2](https://github.com/xic19022/cnabm/blob/figures/SEIR.png)
 
 <em>Figure 2. An infection cycle with the change of an agent’s health status</em>
 
-The workflow of the simulation is shown in [Figure 3](https://github.com/xic19022/cnabm/blob/figures/Fig3_workflow.png). For each scenario, we have performed the simulation for twenty-five weeks at a one-minute timestamp; we also repeated each simulation five times to account for the stochastic nature of the disease transmission. 
+The workflow of the simulation is shown in [Figure 3](https://github.com/xic19022/cnabm/blob/figures/workflow.png). For each scenario, we have performed the simulation for twenty-five weeks at a one-minute timestamp; we also repeated each simulation five times to account for the stochastic nature of the disease transmission. 
 
-![Figure 3](https://github.com/xic19022/cnabm/blob/figures/Fig3_workflow.png)
+![Figure 3](https://github.com/xic19022/cnabm/blob/figures/workflow.png)
 
 <em>Figure 3. Workflow of the CN-ABM model</em>
 
 # Study Area
 
-Our study area is a university campus located in Southern China, as shown in [Figure 4](https://github.com/xic19022/cnabm/blob/figures/Fig4_study_area.png). We consider four different activity environments: dining hall, lecture hall (\*including library), residential building, and outdoors. These activity environments have different infection rates. Other buildings (e.g., administrative buildings) are excluded from the simulation.
+Our study area is a university campus located in Southern China, as shown in [Figure 4](https://github.com/xic19022/cnabm/blob/figures/study_area.png). We consider four different activity environments: dining hall, lecture hall (\*including library), residential building, and outdoors. These activity environments have different infection rates. Other buildings (e.g., administrative buildings) are excluded from the simulation.
 
-![Figure 4](https://github.com/xic19022/cnabm/blob/figures/Fig4_study_area.png)
+![Figure 4](https://github.com/xic19022/cnabm/blob/figures/study_area.png)
 
 <em>Figure 4. Building footprints in the study area</em>
 
